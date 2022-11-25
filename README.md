@@ -1,13 +1,18 @@
 # terraform-task
 
-# to create the vm on azure cloud provide clone this code then run 
+to create the vm on azure cloud provide clone this code 
 
-terraform init
 
-# to know the resources that will be provisioned please run 
+## Get Started
 
-terraform plan
+### start running the command below
 
-# to apply this changes on the created plan please run 
+`terraform init`
 
-terraform apply or terraform apply -y
+### to know the resources that will be provisioned please run 
+
+`terraform plan`
+
+### to apply this changes on the created plan please run 
+
+`terraform apply or terraform apply -y`
