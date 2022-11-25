@@ -27,6 +27,6 @@ rm -rf /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/luftbornapp /etc/nginx/sites-enabled/luftbornapp
 
 #starting nginx service and firewall
-systemctl start nginx
-systemctl enable nginx
-systemctl restart nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl restart nginx
