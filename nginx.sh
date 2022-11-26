@@ -22,9 +22,9 @@ location / {
 
 EOT
 
-mv luftbornapp /etc/nginx/sites-available/luftbornapp
-rm -rf /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/luftbornapp /etc/nginx/sites-enabled/luftbornapp
+sudo mv luftbornapp /etc/nginx/sites-available/luftbornapp
+sudo rm -rf /etc/nginx/sites-enabled/default
+sudo ln -s /etc/nginx/sites-available/luftbornapp /etc/nginx/sites-enabled/luftbornapp
 
 #starting nginx service and firewall
 sudo systemctl start nginx
