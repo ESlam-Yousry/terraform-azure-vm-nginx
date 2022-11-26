@@ -17,7 +17,6 @@ location / {
   proxy_pass http://luftbornapp;
 
 }
-
 }
 
 EOT
